@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource , UITableViewDelegate>
 
+@property (weak, nonatomic) IBOutlet UITableView *myCollection;
+@property (weak, nonatomic) IBOutlet UIButton *addRecordatorio;
+
+@property (weak, nonatomic) IBOutlet UITextField *nombreActividad;
+@property (weak, nonatomic) IBOutlet UIDatePicker *fechaActividad;
 
 @end
 

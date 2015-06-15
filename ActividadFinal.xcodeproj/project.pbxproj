@@ -14,6 +14,9 @@
 		7475ECA91B2CE5D500F55324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7475ECA81B2CE5D500F55324 /* Images.xcassets */; };
 		7475ECAC1B2CE5D500F55324 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7475ECAA1B2CE5D500F55324 /* LaunchScreen.xib */; };
 		7475ECB81B2CE5D600F55324 /* ActividadFinalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7475ECB71B2CE5D600F55324 /* ActividadFinalTests.m */; };
+		7475ECC21B2DE5E800F55324 /* recordatorios.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7475ECC11B2DE5E800F55324 /* recordatorios.txt */; };
+		7475ECC51B2DE6CD00F55324 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7475ECC41B2DE6CD00F55324 /* TableViewCell.m */; };
+		74FD3D791B2E03CA008BF158 /* AlertDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FD3D781B2E03CA008BF158 /* AlertDialog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		7475ECB11B2CE5D600F55324 /* ActividadFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActividadFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7475ECB61B2CE5D600F55324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7475ECB71B2CE5D600F55324 /* ActividadFinalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActividadFinalTests.m; sourceTree = "<group>"; };
+		7475ECC11B2DE5E800F55324 /* recordatorios.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = recordatorios.txt; sourceTree = "<group>"; };
+		7475ECC31B2DE6CD00F55324 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		7475ECC41B2DE6CD00F55324 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		74FD3D771B2E03CA008BF158 /* AlertDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertDialog.h; path = ../AlertDialog.h; sourceTree = "<group>"; };
+		74FD3D781B2E03CA008BF158 /* AlertDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertDialog.m; path = ../AlertDialog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 		7475EC9A1B2CE5D500F55324 /* ActividadFinal */ = {
 			isa = PBXGroup;
 			children = (
+				74FD3D771B2E03CA008BF158 /* AlertDialog.h */,
+				74FD3D781B2E03CA008BF158 /* AlertDialog.m */,
 				7475EC9F1B2CE5D500F55324 /* AppDelegate.h */,
 				7475ECA01B2CE5D500F55324 /* AppDelegate.m */,
 				7475ECA21B2CE5D500F55324 /* ViewController.h */,
@@ -89,6 +99,9 @@
 				7475ECA81B2CE5D500F55324 /* Images.xcassets */,
 				7475ECAA1B2CE5D500F55324 /* LaunchScreen.xib */,
 				7475EC9B1B2CE5D500F55324 /* Supporting Files */,
+				7475ECC11B2DE5E800F55324 /* recordatorios.txt */,
+				7475ECC31B2DE6CD00F55324 /* TableViewCell.h */,
+				7475ECC41B2DE6CD00F55324 /* TableViewCell.m */,
 			);
 			path = ActividadFinal;
 			sourceTree = "<group>";
@@ -199,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7475ECC21B2DE5E800F55324 /* recordatorios.txt in Resources */,
 				7475ECA71B2CE5D500F55324 /* Main.storyboard in Resources */,
 				7475ECAC1B2CE5D500F55324 /* LaunchScreen.xib in Resources */,
 				7475ECA91B2CE5D500F55324 /* Images.xcassets in Resources */,
@@ -220,7 +234,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7475ECA41B2CE5D500F55324 /* ViewController.m in Sources */,
+				7475ECC51B2DE6CD00F55324 /* TableViewCell.m in Sources */,
 				7475ECA11B2CE5D500F55324 /* AppDelegate.m in Sources */,
+				74FD3D791B2E03CA008BF158 /* AlertDialog.m in Sources */,
 				7475EC9E1B2CE5D500F55324 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +428,7 @@
 				7475ECBD1B2CE5D600F55324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7475ECBE1B2CE5D600F55324 /* Build configuration list for PBXNativeTarget "ActividadFinalTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				7475ECC01B2CE5D600F55324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
